@@ -95,7 +95,7 @@ theme.setup = function(cfg)
     Boolean = { fg = c.orange1 }, --  a boolean constant: TRUE, false
     -- Float         = { }, --    a floating point constant: 2.3e10
 
-    Identifier = { fg = c.red1, style = cfg.variable_style }, -- (preferred) any variable name
+    Identifier = { fg = c.cyan0, style = cfg.variable_style }, -- (preferred) any variable name
     Function = { fg = c.blue0, style = cfg.function_style }, -- function name (also: methods for classes)
     Method = { link = 'Function' }, -- method name
     Statement = { fg = c.purple0 }, -- (preferred) any statement
@@ -116,8 +116,21 @@ theme.setup = function(cfg)
     -- StorageClass  = { }, -- static, register, volatile, etc.
     -- Structure     = { }, --  struct, union, enum, etc.
     -- Typedef       = { }, --  A typedef
-
+    
+    -- Quanquan config
     Special = { fg = c.red1 }, -- (preferred) any special symbol
+    vbEvents = { fg = c.yellow1 }, -- (preferred) any special symbol
+    vbComment = { fg = c.blue1 },
+    vbFunction = { fg = c.blue0 },
+    vbMethods = { fg = c.cyan0 },
+    vbStatement = { fg = c.cyan0, style = cfg.keyword_style },
+    htmlTagN = { fg = c.red1 },
+    htmlEndTag = { fg = c.red1 },
+    
+    
+    
+    -- Quanquan config
+    --
     -- SpecialChar   = { }, --  special character in a constant
     -- Tag           = { }, --    you can use CTRL-] on this
     -- Delimiter     = { }, --  character that needs attention
@@ -595,6 +608,9 @@ theme.setup = function(cfg)
     LightspeedUnlabeledMatch = { fg = c.blue0, style = Styles.Bold },
     LightspeedOneCharMatch = { link = 'LightspeedShortcut' },
     LightspeedPendingOpArea = { fg = c.yellow0 },
+
+
+    javaScriptFunction = { fg = '#ff0000' }
   }
 
   if cfg.hide_inactive_statusline then
