@@ -594,7 +594,7 @@ theme.setup = function(cfg)
     -- Quanquan config
     Special = { fg = '#EEE8D5' }, -- (preferred) any special symbol
     vbEvents = { fg = c.yellow1 }, -- (preferred) any special symbol
-    vbComment = { fg = c.blue1 },
+    vbComment = { fg ='#56B6C2' },
     vbFunction = { fg = c.blue0 },
     vbMethods = { fg = c.cyan0 },
     vbStatement = { fg = c.cyan0, style = cfg.keyword_style },
