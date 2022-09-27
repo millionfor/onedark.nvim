@@ -117,26 +117,6 @@ theme.setup = function(cfg)
     -- Structure     = { }, --  struct, union, enum, etc.
     -- Typedef       = { }, --  A typedef
     
-    -- Quanquan config
-    Special = { fg = c.red1 }, -- (preferred) any special symbol
-    vbEvents = { fg = c.yellow1 }, -- (preferred) any special symbol
-    vbComment = { fg = c.blue1 },
-    vbFunction = { fg = c.blue0 },
-    vbMethods = { fg = c.cyan0 },
-    vbStatement = { fg = c.cyan0, style = cfg.keyword_style },
-    htmlTagN = { fg = c.red1 },
-    htmlEndTag = { fg = c.red1 },
-    
-    
-    
-    -- Quanquan config
-    --
-    -- SpecialChar   = { }, --  special character in a constant
-    -- Tag           = { }, --    you can use CTRL-] on this
-    -- Delimiter     = { }, --  character that needs attention
-    -- SpecialComment= { }, -- special things inside a comment
-    -- Debug         = { }, --    debugging statements
-
     Underlined = { style = Styles.Underline }, -- (preferred) text that stands out, HTML links
     Bold = { style = Styles.Bold },
     Italic = { style = Styles.Italic },
@@ -147,7 +127,7 @@ theme.setup = function(cfg)
     Todo = { fg = c.bg0, bg = c.yellow1 }, -- (preferred) anything that needs extra attention; mostly the keywords TODO FIXME and XXX
     qfLineNr = { link = 'CursorLineNr' },
     qfFileName = { fg = c.blue0 },
-    htmlTag = { fg = c.purple0, style = Styles.Bold },
+    -- htmlTag = { fg = c.purple0, style = Styles.Bold },
     -- mkdHeading = { fg = c.orange1, style = Styles.Bold},
     -- mkdCode = { fg = c.fg0, bg = c.bg1 },
     mkdCodeDelimiter = { fg = c.fg0 },
@@ -610,7 +590,52 @@ theme.setup = function(cfg)
     LightspeedPendingOpArea = { fg = c.yellow0 },
 
 
-    javaScriptFunction = { fg = '#ff0000' }
+    javaScriptFunction = { fg = '#ff0000' },
+    -- Quanquan config
+    Special = { fg = '#EEE8D5' }, -- (preferred) any special symbol
+    vbEvents = { fg = c.yellow1 }, -- (preferred) any special symbol
+    vbComment = { fg = c.blue1 },
+    vbFunction = { fg = c.blue0 },
+    vbMethods = { fg = c.cyan0 },
+    vbStatement = { fg = c.cyan0, style = cfg.keyword_style },
+    htmlTag = { fg = '#0087D7' },
+    htmlArg = { fg ='#AF8700' },
+    htmlTagN = { fg = '#0087D7' },
+    htmlString = { fg = '#00AFAF' },
+    htmlEndTag = { fg = '#0087D7' },
+    htmlTagName = { fg = '#87AF00' },
+    javaScriptBoolean = { fg = '#00AFAF' },
+    javaScriptBraces = { fg = '#EEE8D5' },
+    javaScriptMember = { fg = '#55B4C0' },
+    htmlItalic = { ft = '#AF8700' },
+    htmlSpecialTagName = { fg ='#87AF00' },
+    javaScriptStringS = { fg = '#00AFAF' },
+    javaScriptReserved = { fg = '#D75F01' },
+    javaScriptLabel = { fg = '#AF8700' },
+    javaScriptStatement = { fg = '#87AF00' },
+    javaScriptType = { fg ='#00AFAF' },
+    javaScriptIdentifier = { fg = '#D75F01' },
+    javaScriptConditional = { fg = '#87AF00' },
+    javaScriptParens = { fg = '#EEE8D5' } ,
+    javaScriptRepeat = { fg = '#EEE8D5' } ,
+    javaScriptOperator = { fg = '#EEE8D5' } ,
+    javaScriptBranch = { fg = '#87AF00' } ,
+    javaScriptNumber = { fg = '#56B6C2' } ,
+    
+    
+    
+    -- javaScript = { fg = '#EEE8D5' },
+    
+    
+    
+    -- Quanquan config
+    --
+    -- SpecialChar   = { }, --  special character in a constant
+    -- Tag           = { }, --    you can use CTRL-] on this
+    -- Delimiter     = { }, --  character that needs attention
+    -- SpecialComment= { }, -- special things inside a comment
+    -- Debug         = { }, --    debugging statements
+
   }
 
   if cfg.hide_inactive_statusline then
