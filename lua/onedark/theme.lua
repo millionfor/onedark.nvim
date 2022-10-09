@@ -621,6 +621,12 @@ theme.setup = function(cfg)
     javaScriptOperator = { fg = '#EEE8D5' } ,
     javaScriptBranch = { fg = '#87AF00' } ,
     javaScriptNumber = { fg = '#56B6C2' } ,
+    typescriptDocNotation = { fg = c.fg_dark, style = cfg.comment_style },
+    typescriptDocTags = { fg = c.fg_dark, style = cfg.comment_style },
+    typescriptDocNamedParamType = { fg = '#EEE8D5' },
+    typescriptImport = { fg = '#D75F01' },
+    typescriptExport = { fg = '#D75F01' },
+    typescriptString = { fg = '#00AFAF' },
     
     
     
