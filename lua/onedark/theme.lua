@@ -627,6 +627,9 @@ theme.setup = function(cfg)
     typescriptExport = { fg = '#D75F01' },
     typescriptString = { fg = '#00AFAF' },
     typescriptDocNamedParamType = { fg = '#9CA8BF' },
+    typescriptIdentifierName = { fg = c.cyan0 },
+    typescriptFuncCallArg = { fg = c.cyan0 }
+    
     
     
     
