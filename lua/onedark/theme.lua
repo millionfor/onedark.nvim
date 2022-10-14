@@ -628,7 +628,10 @@ theme.setup = function(cfg)
     typescriptString = { fg = '#00AFAF' },
     typescriptDocNamedParamType = { fg = '#9CA8BF' },
     typescriptIdentifierName = { fg = c.cyan0 },
-    typescriptFuncCallArg = { fg = c.cyan0 }
+    typescriptFuncCallArg = { fg = c.cyan0 },
+    typescriptDestructureVariable = { fg = '#61AFEF' },
+    typescriptBinaryOp = { fg = '#C678DD' },
+    
     
     
     
