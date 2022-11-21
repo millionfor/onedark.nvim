@@ -631,6 +631,9 @@ theme.setup = function(cfg)
     typescriptFuncCallArg = { fg = c.cyan0 },
     typescriptDestructureVariable = { fg = '#61AFEF' },
     typescriptBinaryOp = { fg = '#C678DD' },
+    shDerefVar = { fg = '#E5C07B' },
+
+    javaScriptCommentTodo = { fg = '#7F7814', bg = '#FFEE00' },
     
     
     
