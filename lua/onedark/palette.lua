@@ -2,10 +2,10 @@ return {
 	dark = {
 		black = "#181a1f",
 		bg0 = "#282c34",
-		bg1 = "#31353f",
+		bg1 = "#282C34",
 		bg2 = "#393f4a",
 		bg3 = "#3b3f4c",
-		bg_d = "#21252b",
+		bg_d = "#282C34",
 		bg_blue = "#73b8f1",
 		bg_yellow = "#ebd09c",
 		fg = "#abb2bf",
